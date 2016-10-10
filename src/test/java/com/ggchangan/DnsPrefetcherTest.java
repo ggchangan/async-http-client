@@ -1,6 +1,8 @@
+package com.ggchangan;
+
 import java.io.IOException;
 
-import me.shenfeng.dns.DnsPrefecher;
+import com.ggchangan.dns.DnsPrefecher;
 
 import org.junit.Test;
 

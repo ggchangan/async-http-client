@@ -1,4 +1,4 @@
-package me.shenfeng;
+package com.ggchangan;
 
 import static org.jboss.netty.buffer.ChannelBuffers.wrappedBuffer;
 import static org.jboss.netty.handler.codec.compression.ZlibWrapper.GZIP;

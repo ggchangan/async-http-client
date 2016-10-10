@@ -1,13 +1,13 @@
-package me.shenfeng.http;
+package com.ggchangan.http;
 
 import static java.lang.System.currentTimeMillis;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
-import static me.shenfeng.http.HttpClientConstant.CONN_ERROR;
-import static me.shenfeng.http.HttpClientConstant.CONN_RESET;
-import static me.shenfeng.http.HttpClientConstant.CONN_TIMEOUT;
-import static me.shenfeng.http.HttpClientConstant.TIMEOUT;
-import static me.shenfeng.http.HttpClientConstant.TOO_LARGE;
-import static me.shenfeng.http.HttpClientConstant.UNKOWN_ERROR;
+import static com.ggchangan.http.HttpClientConstant.CONN_ERROR;
+import static com.ggchangan.http.HttpClientConstant.CONN_RESET;
+import static com.ggchangan.http.HttpClientConstant.CONN_TIMEOUT;
+import static com.ggchangan.http.HttpClientConstant.TIMEOUT;
+import static com.ggchangan.http.HttpClientConstant.TOO_LARGE;
+import static com.ggchangan.http.HttpClientConstant.UNKOWN_ERROR;
 
 import java.io.IOException;
 import java.net.ConnectException;
@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import me.shenfeng.AbstractResponseFuture;
+import com.ggchangan.AbstractResponseFuture;
 
 import org.jboss.netty.channel.Channel;
 import org.jboss.netty.handler.codec.frame.TooLongFrameException;

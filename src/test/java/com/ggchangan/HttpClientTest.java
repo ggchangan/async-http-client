@@ -1,3 +1,5 @@
+package com.ggchangan;
+
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.net.Proxy.Type;
@@ -8,10 +10,9 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Semaphore;
 
-import me.shenfeng.Utils;
-import me.shenfeng.http.HttpClient;
-import me.shenfeng.http.HttpClientConfig;
-import me.shenfeng.http.HttpResponseFuture;
+import com.ggchangan.http.HttpClient;
+import com.ggchangan.http.HttpClientConfig;
+import com.ggchangan.http.HttpResponseFuture;
 
 import org.jboss.netty.handler.codec.http.HttpResponse;
 import org.junit.Before;

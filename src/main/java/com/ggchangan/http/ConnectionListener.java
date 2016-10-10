@@ -1,4 +1,4 @@
-package me.shenfeng.http;
+package com.ggchangan.http;
 
 import static org.jboss.netty.buffer.ChannelBuffers.wrappedBuffer;
 

@@ -1,4 +1,4 @@
-package me.shenfeng.dns;
+package com.ggchangan.dns;
 
 public interface DnsClientConstant {
     static byte[] FLAGS_PARAMS = new byte[] { 1,// message is standard query,

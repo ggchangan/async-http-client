@@ -1,4 +1,4 @@
-package me.shenfeng.http;
+package com.ggchangan.http;
 
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.channel.ExceptionEvent;

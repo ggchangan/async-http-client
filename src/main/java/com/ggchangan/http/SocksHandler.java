@@ -1,7 +1,7 @@
-package me.shenfeng.http;
+package com.ggchangan.http;
 
 import static java.net.InetAddress.getByName;
-import static me.shenfeng.Utils.getPort;
+import static com.ggchangan.Utils.getPort;
 
 import java.net.URI;
 

@@ -1,8 +1,8 @@
-package me.shenfeng.http;
+package com.ggchangan.http;
 
 import static java.lang.System.currentTimeMillis;
 import static java.util.concurrent.Executors.newCachedThreadPool;
-import static me.shenfeng.Utils.getPort;
+import static com.ggchangan.Utils.getPort;
 import static org.jboss.netty.buffer.ChannelBuffers.wrappedBuffer;
 import static org.jboss.netty.channel.Channels.pipeline;
 import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.ACCEPT;
@@ -36,9 +36,9 @@ import java.util.concurrent.ExecutorService;
 
 import javax.net.ssl.SSLEngine;
 
-import me.shenfeng.PrefixThreadFactory;
-import me.shenfeng.Utils;
-import me.shenfeng.ssl.SslContextFactory;
+import com.ggchangan.PrefixThreadFactory;
+import com.ggchangan.Utils;
+import com.ggchangan.ssl.SslContextFactory;
 
 import org.jboss.netty.bootstrap.ClientBootstrap;
 import org.jboss.netty.channel.Channel;

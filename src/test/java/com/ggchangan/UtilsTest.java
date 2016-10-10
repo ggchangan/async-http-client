@@ -1,10 +1,10 @@
+package com.ggchangan;
+
 import static org.jboss.netty.util.CharsetUtil.UTF_8;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
-
-import me.shenfeng.Utils;
 
 import org.junit.Assert;
 import org.junit.Test;

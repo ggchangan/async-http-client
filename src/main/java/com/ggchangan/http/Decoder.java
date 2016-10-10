@@ -1,7 +1,7 @@
-package me.shenfeng.http;
+package com.ggchangan.http;
 
-import static me.shenfeng.http.HttpClientConstant.TOO_LARGE;
-import static me.shenfeng.http.HttpClientConstant.UNKNOWN_CONTENT;
+import static com.ggchangan.http.HttpClientConstant.TOO_LARGE;
+import static com.ggchangan.http.HttpClientConstant.UNKNOWN_CONTENT;
 import static org.jboss.netty.handler.codec.http.HttpHeaders.getContentLength;
 import static org.jboss.netty.handler.codec.http.HttpHeaders.Names.CONTENT_TYPE;
 

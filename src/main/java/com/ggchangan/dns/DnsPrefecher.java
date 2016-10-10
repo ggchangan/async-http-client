@@ -1,6 +1,6 @@
-package me.shenfeng.dns;
+package com.ggchangan.dns;
 
-import static me.shenfeng.Utils.toBytes;
+import static com.ggchangan.Utils.toBytes;
 import static org.jboss.netty.buffer.ChannelBuffers.dynamicBuffer;
 
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import me.shenfeng.Utils;
+import com.ggchangan.Utils;
 
 import org.jboss.netty.buffer.ChannelBuffer;
 import org.slf4j.Logger;
